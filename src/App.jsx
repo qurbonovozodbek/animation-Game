@@ -120,7 +120,7 @@ function App() {
               return false;
             }
             if (isMissed) {
-              setLives((l) => l - 0.5);
+              setLives((l) => l - 1);
               return false;
             }
             return true;
